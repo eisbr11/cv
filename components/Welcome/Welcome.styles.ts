@@ -30,11 +30,13 @@ const useStyles = makeStyles((theme) => ({
       flex: '0 0 320px',
     },
   },
-  content: {
-
-  },
   boldText: {
     fontWeight: theme.typography.fontWeightBold,
+  },
+  linksContainer: {
+    display: 'flex',
+    padding: theme.spacing(1, 2),
+    justifyContent: 'space-evenly',
   },
 }));
 
