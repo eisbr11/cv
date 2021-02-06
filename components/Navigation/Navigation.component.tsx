@@ -59,7 +59,7 @@ const Navigation = () => {
             <li key={navItem.name}>
               <Link href={navItem.link}>
                 <a className={classes.link}>
-                  {navItem.name}
+                  <span className={classes.linkName}>{navItem.name}</span>
                 </a>
               </Link>
             </li>
