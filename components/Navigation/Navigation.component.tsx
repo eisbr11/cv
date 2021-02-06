@@ -1,30 +1,58 @@
 import React from 'react';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import RestoreIcon from '@material-ui/icons/Restore';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
+import Link from 'next/link';
+import { AppBar, IconButton, Toolbar } from '@material-ui/core';
+import HomeIcon from '@material-ui/icons/Home';
 
 import useStyles from './Navigation.styles';
 
+const navigation = [
+  {
+    name: 'Education',
+    link: 'education',
+  },
+  {
+    name: 'Professional Experience',
+    link: 'experience',
+  },
+  {
+    name: 'Area of Expertise',
+    link: 'expertise',
+  },
+  {
+    name: 'Private Stuff',
+    link: 'private-stuff',
+  },
+  {
+    name: 'Contact',
+    link: 'contact',
+  },
+];
+
 const Navigation = () => {
   const classes = useStyles();
-  const [value, setValue] = React.useState(0);
 
   return (
-    <BottomNavigation
-      value={value}
-      onChange={(event, newValue) => {
-        setValue(newValue);
-      }}
-      showLabels
-      className={classes.container}
-    >
-      <BottomNavigationAction label="Education" icon={<RestoreIcon />} />
-      <BottomNavigationAction label="Experience" icon={<RestoreIcon />} />
-      <BottomNavigationAction label="Expertise" icon={<FavoriteIcon />} />
-      <BottomNavigationAction label="Contact" icon={<LocationOnIcon />} />
-    </BottomNavigation>
+    <AppBar className={classes.appbar} position="fixed">
+      <Toolbar>
+        <Link href="/">
+          <IconButton edge="start" className={classes.homeButton} color="inherit" aria-label="menu">
+            <HomeIcon />
+          </IconButton>
+        </Link>
+
+        <ul className={classes.navlist}>
+          {navigation.map((navItem) => (
+            <li key={navItem.name}>
+              <Link href={navItem.link}>
+                <a className={classes.link}>
+                  {navItem.name}
+                </a>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Toolbar>
+    </AppBar>
   );
 };
 
