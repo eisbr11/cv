@@ -1,3 +1,4 @@
 import XingIcon from './XingIcon';
+import SpotifyIcon from './SpotifyIcon';
 
-export { XingIcon };
+export { XingIcon, SpotifyIcon };
