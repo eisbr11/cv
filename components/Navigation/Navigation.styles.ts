@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme) => ({
   },
   homeButton: {
     marginRight: theme.spacing(4),
+    zIndex: 5,
   },
   link: {
     padding: theme.spacing(2),
@@ -47,11 +48,10 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'row',
 
     [theme.breakpoints.down('sm')]: {
-      display: 'none',
-      position: 'absolute',
+      top: '100%',
+      position: 'fixed',
       flexDirection: 'column',
       bottom: 0,
-      top: 'auto',
       background: theme.palette.primary.main,
       left: '50%',
       transform: 'translateX(-50%)',
@@ -59,11 +59,13 @@ const useStyles = makeStyles((theme) => ({
       width: '100vw',
       justifyContent: 'center',
       padding: theme.spacing(0, 0, 12),
+      transition: 'top 300ms ease',
     },
   },
   navListOpen: {
     [theme.breakpoints.down('sm')]: {
       display: 'flex',
+      top: 0,
     },
   },
   fabButton: {
