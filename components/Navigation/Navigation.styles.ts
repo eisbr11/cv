@@ -10,6 +10,11 @@ const useStyles = makeStyles((theme) => ({
   },
   link: {
     padding: theme.spacing(2),
+    display: 'inline-block',
+
+    [theme.breakpoints.down('sm')]: {
+      padding: theme.spacing(2, 2),
+    },
   },
   navlist: {
     listStyle: 'none',
@@ -19,6 +24,37 @@ const useStyles = makeStyles((theme) => ({
     padding: 0,
     display: 'flex',
     flexDirection: 'row',
+
+    [theme.breakpoints.down('sm')]: {
+      display: 'none',
+      position: 'absolute',
+      flexDirection: 'column',
+      bottom: 0,
+      top: 'auto',
+      background: theme.palette.primary.main,
+      left: '50%',
+      transform: 'translateX(-50%)',
+      height: '100vh',
+      width: '100vw',
+      justifyContent: 'center',
+      padding: theme.spacing(0, 0, 12),
+    },
+  },
+  navListOpen: {
+    [theme.breakpoints.down('sm')]: {
+      display: 'flex',
+    },
+  },
+  fabButton: {
+    position: 'absolute',
+    zIndex: 1,
+    top: -30,
+    left: 0,
+    right: 0,
+    margin: '0 auto',
+    [theme.breakpoints.up('md')]: {
+      display: 'none',
+    },
   },
   container: {
     width: '100%',
