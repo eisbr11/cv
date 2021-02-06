@@ -1,5 +1,5 @@
 import { createMuiTheme, Theme } from '@material-ui/core/styles';
-import { red } from '@material-ui/core/colors';
+import { blue, red, teal } from '@material-ui/core/colors';
 import commonThemeSettings from './commonThemeSettings';
 
 // Create a theme instance.
@@ -7,16 +7,16 @@ const theme:Theme = createMuiTheme({
   palette: {
     type: 'dark',
     primary: {
-      main: '#556cd6',
+      main: blue.A400,
     },
     secondary: {
-      main: '#19857b',
+      main: teal.A400,
     },
     error: {
       main: red.A400,
     },
     background: {
-      default: '#fff',
+      default: '#FFF',
     },
   },
   ...commonThemeSettings,
