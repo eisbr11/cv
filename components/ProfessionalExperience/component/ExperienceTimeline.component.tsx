@@ -1,4 +1,4 @@
-import useStyles from './ExperienceTimeline.styles';
+import React from 'react';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import Typography from '@material-ui/core/Typography';
@@ -11,8 +11,9 @@ import Paper from '@material-ui/core/Paper';
 import BusinessIcon from '@material-ui/icons/Business';
 import ComputerIcon from '@material-ui/icons/Computer';
 import Timeline from '@material-ui/lab/Timeline';
-import React from 'react';
+
 import { ReactIcon } from '@components/customIcons';
+import useStyles from './ExperienceTimeline.styles';
 
 const ExperienceTimelineComponent = () => {
   const classes = useStyles();
