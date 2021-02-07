@@ -62,6 +62,9 @@ export default function CustomizedTimeline() {
             <Typography variant="h6" component="h1" className={classes.bold}>
               Humboldt Universität zu Berlin
             </Typography>
+            <Typography variant="caption">
+              field of study: computer science
+            </Typography>
             <Typography variant="body2">no graduation</Typography>
           </Paper>
         </TimelineContent>
@@ -97,7 +100,6 @@ export default function CustomizedTimeline() {
           <TimelineDot color="secondary">
             <CakeIcon />
           </TimelineDot>
-          <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>

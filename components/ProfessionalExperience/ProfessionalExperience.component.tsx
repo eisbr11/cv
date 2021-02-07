@@ -9,7 +9,7 @@ const ProfessionalExperience = () => {
     <Container className={classes.container}>
       <Grid container spacing={2}>
         <Grid item xs={12}>
-          <Typography variant="h4" align="center">
+          <Typography gutterBottom variant="h4" align="center">
             My professional Experience
           </Typography>
         </Grid>
