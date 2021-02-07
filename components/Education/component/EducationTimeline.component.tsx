@@ -33,14 +33,14 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
+            <Typography variant="h6" component="h1" className={classes.bold}>
               OSZIMT Berlin (IHK)
             </Typography>
-            <Typography>
+            <Typography variant="body2">
               Graduation
             </Typography>
-            <Typography>
-              Computer Science Expert Subject Area: Software Development
+            <Typography variant="body2">
+              Computer Science Expert, Subject Area: Software Development
             </Typography>
           </Paper>
         </TimelineContent>
@@ -59,10 +59,10 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
+            <Typography variant="h6" component="h1" className={classes.bold}>
               Humboldt Universität zu Berlin
             </Typography>
-            <Typography>no graduation</Typography>
+            <Typography variant="body2">no graduation</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -80,10 +80,10 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
-              Gymnasium (high school)
+            <Typography variant="h6" component="h1" className={classes.bold}>
+              Linus-Pauling Gymnasium (high school)
             </Typography>
-            <Typography>Graduation: Abitur (2.8)</Typography>
+            <Typography variant="body2">Graduation: Abitur (2.8)</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
