@@ -13,12 +13,12 @@ import useStyles from './Navigation.styles';
 
 const navigation = [
   {
-    name: 'Education',
-    link: '/education',
-  },
-  {
     name: 'Professional Experience',
     link: '/experience',
+  },
+  {
+    name: 'Education',
+    link: '/education',
   },
   {
     name: 'Area of Expertise',

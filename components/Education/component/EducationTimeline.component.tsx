@@ -22,41 +22,26 @@ export default function CustomizedTimeline() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" color="textSecondary">
-            1989
+            2013
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot color="secondary">
-            <CakeIcon />
+            <SchoolIcon color="primary" />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              I was born
+              OSZIMT Berlin (IHK)
             </Typography>
-          </Paper>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineOppositeContent>
-          <Typography variant="body2" color="textSecondary">
-            2008
-          </Typography>
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineDot color="primary">
-            <HomeWorkIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
-              Gymnasium (high school)
+            <Typography>
+              Graduation
             </Typography>
-            <Typography>Graduation: Abitur (2.8)</Typography>
+            <Typography>
+              Computer Science Expert Subject Area: Software Development
+            </Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -84,25 +69,40 @@ export default function CustomizedTimeline() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" color="textSecondary">
-            2013
+            2008
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot color="secondary">
-            <SchoolIcon color="primary" />
+          <TimelineDot color="primary">
+            <HomeWorkIcon />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              OSZIMT Berlin (IHK)
+              Gymnasium (high school)
             </Typography>
-            <Typography>
-              Graduation
-            </Typography>
-            <Typography>
-              Computer Science Expert Subject Area: Software Development
+            <Typography>Graduation: Abitur (2.8)</Typography>
+          </Paper>
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent>
+          <Typography variant="body2" color="textSecondary">
+            1989
+          </Typography>
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot color="secondary">
+            <CakeIcon />
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Paper elevation={3} className={classes.paper}>
+            <Typography variant="h6" component="h1">
+              I was born
             </Typography>
           </Paper>
         </TimelineContent>
