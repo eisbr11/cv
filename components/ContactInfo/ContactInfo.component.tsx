@@ -21,7 +21,7 @@ const ContactInfo = () => {
         <Grid item xs={12} sm={9} md={7} lg={6}>
           <Paper elevation={3}>
             <Typography variant="h6" component="h1" className={classes.bold}>
-              My favourite Tech-Stack:
+              Contact
             </Typography>
           </Paper>
         </Grid>
