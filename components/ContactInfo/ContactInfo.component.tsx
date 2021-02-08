@@ -2,14 +2,14 @@ import React from 'react';
 import {
   Button,
   Container,
-  Grid, IconButton,
+  Grid,
   Typography,
 } from '@material-ui/core';
-
-import useStyles from './ContactInfo.styles';
-import ContactCard from './components/ContactCard/ContactCard.component';
-import Link from 'next/link';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import Link from 'next/link';
+
+import ContactCard from './components/ContactCard/ContactCard.component';
+import useStyles from './ContactInfo.styles';
 
 const ContactInfo = () => {
   const classes = useStyles();
@@ -31,11 +31,11 @@ const ContactInfo = () => {
             This cv was made in a weekend.
             The code can be found here:
           </Typography>
-            <Link href="https://github.com/eisbr11/cv">
-              <Button startIcon={<GitHubIcon />} variant="contained" size="large" color="secondary" aria-label="look at this project in Github">
-                github.com/eisbr11/cv
-              </Button>
-            </Link>
+          <Link href="https://github.com/eisbr11/cv">
+            <Button startIcon={<GitHubIcon />} variant="contained" size="large" color="secondary" aria-label="look at this project in Github">
+              github.com/eisbr11/cv
+            </Button>
+          </Link>
         </Grid>
       </Grid>
     </Container>

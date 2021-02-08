@@ -2,7 +2,7 @@ import {
   Card,
   CardActions,
   CardContent,
-  Divider, IconButton,
+  Divider,
   List,
   ListItem,
   ListItemIcon,
@@ -15,8 +15,6 @@ import Image from 'next/image';
 
 import SocialLinks from '@components/SocialLinks/SocialLinks.component';
 import useStyles from './ContactCard.styles';
-import Link from 'next/link';
-import GitHubIcon from '@material-ui/icons/GitHub';
 
 const ContactCard = () => {
   const classes = useStyles();
