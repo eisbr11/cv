@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'row',
 
     [theme.breakpoints.down('sm')]: {
-      top: '100%',
+      top: '110%',
       position: 'fixed',
       flexDirection: 'column',
       bottom: 0,
