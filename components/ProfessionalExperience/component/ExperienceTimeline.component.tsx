@@ -71,7 +71,7 @@ const ExperienceTimelineComponent = () => {
             </Typography>
             <Typography variant="body2">
               {/* eslint-disable-next-line max-len */}
-              I was assigned the role of a Lead Developer for a project, with technical responsibility for the whole project.
+              I was assigned the role of a Lead Developer for a project, with all the conceptual and technical responsibilities that come with that role.
             </Typography>
           </Paper>
         </TimelineContent>
