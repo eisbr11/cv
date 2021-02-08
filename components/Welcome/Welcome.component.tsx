@@ -28,7 +28,7 @@ const Welcome = () => {
           Senior Frontend Developer from Berlin
         </Typography>
         <Typography variant="body2" paragraph>
-          {`Hey there, this is Felix. I am ${age} years old and work as a Senior Frontend Developer in Berlin.`}
+          {`Hey there, this is Felix. I am ${age} years old and I love creating awesome websites and applications.`}
         </Typography>
         <Divider />
         <SocialLinks />
