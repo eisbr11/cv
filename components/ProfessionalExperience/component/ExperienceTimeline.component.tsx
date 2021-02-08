@@ -71,7 +71,7 @@ const ExperienceTimelineComponent = () => {
             </Typography>
             <Typography variant="body2">
               {/* eslint-disable-next-line max-len */}
-              As I was promoted to Senior level, I also was given the role of a Lead Developer on a project, having technical responsibility over the whole project.
+              I was assigned the role of a Lead Developer for a project, with technical responsibility for the whole project.
             </Typography>
           </Paper>
         </TimelineContent>
@@ -96,7 +96,7 @@ const ExperienceTimelineComponent = () => {
             <Typography variant="caption" className={classes.bold}>Software Developer (Frontend)</Typography>
             <Typography variant="body2">
               {/* eslint-disable-next-line max-len */}
-              At NETFORMIC, I worked on a variety of different e-Commerce projects that used lots of different systems like Symfony, Shopware, Oxid, Spryker.
+              I worked on a variety of different e-Commerce projects that used lots of different systems like Symfony, Shopware, Oxid, Spryker.
             </Typography>
           </Paper>
         </TimelineContent>
