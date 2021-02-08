@@ -33,11 +33,6 @@ const useStyles = makeStyles((theme) => ({
   boldText: {
     fontWeight: theme.typography.fontWeightBold,
   },
-  linksContainer: {
-    display: 'flex',
-    padding: theme.spacing(1, 2),
-    justifyContent: 'space-evenly',
-  },
 }));
 
 export default useStyles;

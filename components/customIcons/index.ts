@@ -14,6 +14,7 @@ import GatsbyIcon from './GatsbyIcon';
 import StoryblokIcon from './StoryblokIcon';
 import CypressIcon from './CypressIcon';
 import GitlabIcon from './GitlabIcon';
+import SymfonyIcon from './SymfonyIcon';
 
 export {
   XingIcon,
@@ -32,4 +33,5 @@ export {
   StoryblokIcon,
   CypressIcon,
   GitlabIcon,
+  SymfonyIcon,
 };

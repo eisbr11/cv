@@ -5,6 +5,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import {
   StoryblokIcon,
   GitlabIcon,
+  SymfonyIcon,
 } from '@components/customIcons';
 import ListStack from '../ListStack/ListStack.component';
 
@@ -16,6 +17,10 @@ const systemsStack = [
   {
     name: 'Github Actions',
     icon: <GitHubIcon />,
+  },
+  {
+    name: 'Symfony',
+    icon: <SymfonyIcon />,
   },
   {
     name: 'Several CMS Systems like Storyblok, Squidex, Wordpress, Typo3',
